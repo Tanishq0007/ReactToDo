@@ -17,6 +17,7 @@ class App extends React.Component {
     if(todoValue !== "") {
       const newItem = {
         id: Date.now(),
+        value: todoValue,
         isDone: false
       };
       const list = [...this.state.list];
