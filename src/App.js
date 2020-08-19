@@ -35,7 +35,9 @@ class App extends React.Component {
     this.setState({list: updatedlist})
   }
 
- 
+  Updateinput(input){
+    this.setState({newItem:input});
+  }
 
   render(){
     return (
